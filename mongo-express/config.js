@@ -19,21 +19,6 @@ module.exports = {
 
             //Add the the name, the username, and the password of the databases you want to connect to
             //Add as many databases as you want!
-            {
-                database: 'test',
-                username: 'admin',
-                password: 'xiaosenz'
-            },
-            {
-                database: 'local',
-                username: 'admin',
-                password: 'xiaosenz'
-            },
-            {
-                database: 'admin',
-                username: 'admin',
-                password: 'xiaosenz'
-            }
 
         ],
 

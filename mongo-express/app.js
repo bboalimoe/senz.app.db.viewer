@@ -310,18 +310,7 @@ app.post(config.site.baseUrl+'db/:database', middleware, routes.addCollection);
 
 app.get(config.site.baseUrl+'db/:database', middleware, routes.viewDatabase);
 
-module.exports = app
-//run as standalone App?
-//if (require.main === module){
-//  app.listen(config.site.port);
-//  console.log("Mongo Express server listening on port " + (config.site.port || 80));
-//}else{
-//  //as a module
-//  console.log('Mongo Express module ready to use on route "'+config.site.baseUrl+'*"');
-//  server=http.createServer(app);
-//  module.exports=function(req,res,next){
-//    server.emit('request', req, res);
-//  };
-//}
+module.exports = app;
+
 
 
