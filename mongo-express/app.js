@@ -16,6 +16,9 @@ var swig = require('swig');
 var swigFilters = require('./filters');
 var app = express();
 
+var cloud = require("../cloud.js");
+app.use(cloud);
+
 var config = require('./config');
 
 //Set up swig

@@ -11,7 +11,7 @@ var app = require("./mongo-express/app.js");
 
 
 // 加载云代码方法
-app.use(cloud);
+//app.use(cloud);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
